@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="итальянский ресторан в Казани">
+    <meta name="description" content="Итальянский кухня в центре Казани, большой выбор пицц.">
+    <title>Доставка и Оплата «A ROME PIZZA»</title>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- swiper -->
+    <!-- styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- styles -->
+</head>
+
+<body class="bg-1">
+    <!-- HEADER -->
+    <header class="c-2 pr">
+        <div class="container header-container px-0">
+            <nav class="navbar navbar-expand-lg header-one px-0 ps">
+                <!--  button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- logo -->
+                <a class="navbar-brand d-lg-none m-0" href="#"><img src="pics/img/pizza-logo.png" alt=""></a>
+                <span class="navbar-text pl-i time-i f-11 fw-5 d-none d-md-inline-block d-lg-none m-0">Ежедневно с 10:00 до 23:00</span>
+                <span class="navbar-text m-0 mr-3 d-lg-none"><a class="pl-i tel-i f-11 fw-5" href="tel:+7(843)292-97-09">+7 (843) 292-97-09</a></span>
+                <div class="collapse navbar-collapse flex-wrap justify-content-between" id="navbarSupportedContent">
+                    <!-- logo -->
+                    <a class="navbar-brand d-none d-lg-inline-block" href="#"><img src="pics/img/pizza-logo.png" alt=""></a>
+                    <!-- search form -->
+                    <form class="mx-3 mb-2 my-3 my-lg-0 m-lg-0 search-form d-flex justify-content-between">
+                        <input required type="search" placeholder="Поиск по сайту..." aria-label="Search" class="search-input"><button type="button" class="search-btn bttn">Найти</button>
+                    </form>
+                    <!-- nav text -->
+                    <span class="navbar-text pl-i place-i f-11 fw-5">Казань, ул. Театральная д.3</span>
+                    <span class="navbar-text pl-i time-i f-11 fw-5 d-md-none d-lg-inline-block">Ежедневно с 10:00 до 23:00</span>
+                    <span class="navbar-text pl-i tel-i f-11 fw-5 d-none d-lg-inline-block"><a href="tel:+7(843)292-97-09">+7 (843) 292-97-09</a></span>
+                    <!-- main nav -->
+                    <ul class="navbar-nav mr-auto flex-grow-1 justify-content-between f-11">
+                        <!-- restaurant menu -->
+                        <li class="nav-item">
+                            <a class="nav-link pl-i menu-i" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Меню</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">О&#160;нас</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Доставка&#160;и&#160;оплата</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Вакансии</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link pl-i compare-i" href="#">Сравнение</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pr-i sign-i" href="#">Личный&#160;кабинет</a>
+                        </li>
+
+
+                        <!-- shopping cart -->
+                        <li class="nav-item nav-item-shop dropdown">
+                            <a class="nav-link dropdown-toggle pl-i shop-i" href="#" id="shopCartDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Корзина</a>
+                            <div class="dropdown-menu dropdown-menu-right flex-column" aria-labelledby="shopCartDropdown">
+                                <div class="dropdown-item">
+                                    <div class="backet-item">
+                                        <div class="backet-item-top d-flex justify-content-between">
+                                            <div class="back-left d-flex">
+                                                <div class="back-item-img flex-shrink-0">
+                                                    <img src="pics/img/pop-item.png" alt="">
+                                                </div>
+                                                <div class="back-group">
+                                                    <div class="back-item-title fw-6">Пицца Маргарита long title</div>
+                                                    <div class="back-item-desc">Тесто, томатный соус, сыр, томаты, базилик, орегано, long food description Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi veniam animi hic necessitatibus, repudiandae voluptatem vitae
+                                                        rerum facilis dolorum atque aut molestiae qui vero, quasi amet voluptate? Sapiente, ipsa qui.</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="back-item-delete"><button class="delete_btn"></button></div>
+                                        </div>
+                                        <div class="backet-item-bottom d-flex justify-content-between">
+                                            <div class="back-item-weight">1240 г</div>
+                                            <div class="back-item-amount">
+                                                <button class="item-amount_btn item-amount-minus">-</button>
+                                                <input type="number" min="1" value="1" name="" id="" class="item-amount-input">
+                                                <button class="item-amount_btn item-amount-plus">+</button>
+                                            </div>
+                                            <div class="back-item-price fw-6">1360 руб</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item">
+                                    <div class="backet-item">
+                                        <div class="backet-item-top d-flex justify-content-between">
+                                            <div class="back-left d-flex">
+                                                <div class="back-item-img flex-shrink-0">
+                                                    <img src="pics/img/pop-item.png" alt="">
+                                                </div>
+                                                <div class="back-group flex-grow-1">
+                                                    <div class="back-item-title fw-6">Пицца Маргарита</div>
+                                                    <div class="back-item-desc">Тесто, томатный соус, сыр, томаты, базилик, орегано</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="back-item-delete"><button class="delete_btn"></button></div>
+                                        </div>
+                                        <div class="backet-item-bottom d-flex justify-content-between">
+                                            <div class="back-item-weight">240 г</div>
+                                            <div class="back-item-amount">
+                                                <button class="item-amount_btn item-amount-minus">-</button>
+                                                <input type="number" min="1" value="1" name="" id="" class="item-amount-input">
+                                                <button class="item-amount_btn item-amount-plus">+</button>
+                                            </div>
+                                            <div class="back-item-price fw-6">8360 руб</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="mx-auto text-center">
+                                    <button class="bttn btn-reserve_table mx-auto">Оформить заказ на 11360 руб</button>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-9  mb-110px">
+                        <!-- section title -->
+                        <h1 class="">О доставке</h1>
+                        <p>Бесплатная доставка от 700 ₽<br>При заказе на меньшую сумму стоимость доставки — 110 ₽<br> При заказе от 5 000 ₽ и выше оператор вправе попросить предоплату с Клиента, удобным для него способом. Время доставки заказа осуществляется
+                            с момента внесения предоплаты.
+                        </p>
+                        <p> Обратите внимание, если вы оплатили заказ и не смогли его забрать по каким — либо причинам в течение 2-х часов, нам придётся отправить еду в утиль. Таковы регламенты сроков хранения нашей продукции. Денежные средства, к сожалению,
+                            будут утеряны.
+                        </p>
+                        <p> Важно понимать, что наш курьер терпиливо подождёт вас 10 минут у входа, если вдруг перестанете выходить на связь или не откроете дверь. Но затем ему придётся уезжать к другим Клиентам, чтобы вовремя доставить свежую еду. В этом
+                            случае вам будет необходимо повторно связаться с Администратором.
+                        </p>
+                    </div>
+
+
+                    <div class="col-12 mb-110px">
+                        <!-- section title -->
+                        <h1 class="">Способы доставки:</h1>
+                        <div class="row">
+                            <div class="col-lg-6 d-flex">
+                                <img src="pics/icons/delivery1.svg" alt="" class="gr-i">
+                                <div>
+                                    <h6 class="f-11 fw-6">Доставка курьером</h6>
+                                    <p>Бесплатная доставка. Минимальная сумма заказа 1500 руб.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 d-flex">
+                                <img src="pics/icons/delivery2.svg" alt="" class="gr-i">
+                                <div>
+                                    <h6 class="f-11 fw-6">Самовывоз</h6>
+                                    <p>«A Rome» — это ваше маленькое и незабываемое путешествие в Италию. Место, где вы всегда сможете отвлечься от городской суеты, при этом находясь в историческом центре Казани.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12  mb-110px">
+                        <!-- section title -->
+                        <h1 class="">Способы оплаты:</h1>
+                        <div class="row">
+                            <div class="col-lg-4 d-flex">
+                                <img src="pics/icons/payment1.svg" alt="" class="gr-i">
+                                <div>
+                                    <h6 class="f-11 fw-6">Оплата картой</h6>
+                                    <p>Принимаются карты Mastercard, Maestro и Visa</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex">
+                                <img src="pics/icons/payment1.svg" alt="" class="gr-i">
+                                <div>
+                                    <h6 class="f-11 fw-6">Оплата картой курьеру</h6>
+                                    <p>Курьер привезёт с собой мобильный платёжный терминал. Принимаются карты Mastercard, Maestro и Visa.</p>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 d-flex">
+                                <img src="pics/icons/payment1.svg" alt="" class="gr-i">
+                                <div>
+                                    <h6 class="f-11 fw-6">Оплата наличными</h6>
+                                    <p>Вы можете оплатить заказ наличными нашему курьеру или при самовывозе</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-2">
+        <div class="container c-1">
+            <div class="row justify-content-between">
+                <div class="col-lg-3">
+                    <address>&#64; 2020 A&#160;ROME PIZZA</address>
+                    <a href="#" class="c-3">Политика конфиденциальности</a>
+                </div>
+                <nav class="col-lg-5 d-lg-flex justify-content-between my-3 my-lg-0">
+                    <li><a href="">Меню</a></li>
+                    <li><a href="">О&#160;нас</a></li>
+                    <li><a href="">Вакансии</a></li>
+                    <li><a href="">Доставка и&#160;оплата</a></li>
+                </nav>
+                <div class="col-lg-3 text-lg-right">
+                    <a href="tel:+" class="d-inline-block mb-2">+7&#160;(843)&#160;292-97-09</a>
+                    <div>
+                        <p class="d-inline mr-1">Наши социальные сети:</p>
+                        <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"><img src="pics/icons/insta.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- sliders settings -->
+    <script src="js/swipers.js"></script>
+</body>
+
+</html>
