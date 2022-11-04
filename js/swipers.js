@@ -1,5 +1,6 @@
 // main page banner swiper
 var swiper = new Swiper('.banner-swiper', {
+    autoHeight: true,
     pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
@@ -9,9 +10,9 @@ var swiper = new Swiper('.banner-swiper', {
 
 // main page popular items swiper
 var swiper = new Swiper('.popular-swiper', {
-    // autoHeight: true,
+    setWrapperSize: true,
     slidesPerView: 1,
-    spaceBetween: 20,
+    spaceBetween: 15,
     pagination: {
         el: '.swiper-pagination',
         type: 'fraction',
@@ -25,15 +26,14 @@ var swiper = new Swiper('.popular-swiper', {
             slidesPerView: 2
         },
         768: {
-            slidesPerView: 3
+            slidesPerView: 3,
+            spaceBetween: 20
         },
         992: {
-            slidesPerView: 3
+            slidesPerView: 3,
+            spaceBetween: 30
         },
         1200: {
-            slidesPerView: 3
-        },
-        1600: {
             slidesPerView: 4,
             spaceBetween: 30
         }
@@ -103,4 +103,14 @@ var swiper = new Swiper('.reviews-swiper', {
             spaceBetween: 60
         }
     }
+});
+
+// about page mini swiper
+var swiper = new Swiper('.about-swiper', {
+    autoHeight: true,
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+    },
 });

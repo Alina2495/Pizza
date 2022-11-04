@@ -1,0 +1,92 @@
+<!-- APPLY FOR VACANCY MODAL START -->
+<div class="modal fade" id="vacancyFormModal" tabindex="-1" aria-labelledby="vacancyFormLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.75 2.7175L22.2825 0.25L12.5 10.0325L2.7175 0.25L0.25 2.7175L10.0325 12.5L0.25 22.2825L2.7175 24.75L12.5 14.9675L22.2825 24.75L24.75 22.2825L14.9675 12.5L24.75 2.7175Z" fill="white"/>
+                </svg>    
+            </button>
+            <div class="modal-body">
+                <form action="">
+                    <h2 class="modal-title" id="vacancyFormLabel">Отправить анкету</h2>
+                    <p>Заполните анкету, чтобы присоединиться к нашей команде!</p>
+                    <input type="text" name="" id="" placeholder="Фамилия">
+                    <div class="form-gr">
+                        <input type="text" placeholder="Имя"><input type="text" placeholder="Отчество">
+                    </div>
+                    <div class="form-gr">
+                        <input type="tel" name="" id="" placeholder="Номер телефона" required>
+                        <input type="date" placeholder="Дата рождения" id="date" class="empty">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="4" placeholder="Комментарий"></textarea>
+                    <div class="modal-gr">
+                        <button class="bttn btn-gr btn-sh mt-3 mt-sm-0">Отправить</button>
+
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="customFileLang" lang="ru" accept="text/*">
+                            <label class="custom-file-label fs-16" for="customFileLang" data-browse="">Прикрепить документ</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- APPLY FOR VACANCY MODAL START -->
+
+<!-- EDIT PROFILE MODAL START -->
+<div class="modal fade" id="editProfileModal" tabindex="-1" role="dialog" aria-labelledby="editProfileLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.75 2.7175L22.2825 0.25L12.5 10.0325L2.7175 0.25L0.25 2.7175L10.0325 12.5L0.25 22.2825L2.7175 24.75L12.5 14.9675L22.2825 24.75L24.75 22.2825L14.9675 12.5L24.75 2.7175Z" fill="white"/>
+                </svg>    
+            </button>
+            <div class="modal-body">
+                <h2 class="modal-title" id="editProfileLabel">Редактировать данные</h2>
+                <input type="text" placeholder="Имя">
+                <input type="tel" placeholder="Телефон">
+                <input type="email" placeholder="Электронная почта">
+                <input type="password" placeholder="Дата рождения">
+                <fieldset class="mb-30 fs-16">
+                    <input type="checkbox" name="" id="check1"><label for="check1" class="c-5">Получать информацию о&#160;скидках и&#160;акциях</label>
+                </fieldset>
+                <button class="bttn btn-gr">Сохранить</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- EDIT PROFILE MODAL END -->
+
+<!-- ADD NEW DELIVERY ADDRESS MODAL START -->
+<div class="modal fade" id="addNewAddressModal" tabindex="-1" role="dialog" aria-labelledby="addNewAddressLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.75 2.7175L22.2825 0.25L12.5 10.0325L2.7175 0.25L0.25 2.7175L10.0325 12.5L0.25 22.2825L2.7175 24.75L12.5 14.9675L22.2825 24.75L24.75 22.2825L14.9675 12.5L24.75 2.7175Z" fill="white"/>
+                </svg>    
+            </button>
+            <div class="modal-body">
+                <h2 class="modal-title" id="addNewAddressLabel">Адрес доставки</h2>
+                <input type="text" placeholder="Название адреса">
+                <input type="text" placeholder="Улица">
+                <input type="text" placeholder="Дом">
+                <fieldset class="d-flex flex-column flex-lg-row wrap-lg-nowrap justify-content-between">
+                    <input type="text" placeholder="Квартира">
+                    <input type="text" placeholder="Подъезд">
+                    <input type="text" placeholder="Код двери">
+                    <input type="text" placeholder="Этаж">
+                </fieldset>
+                <textarea name="" id="" cols="30" rows="4" placeholder="Комментарий к адресу"></textarea>
+                <fieldset class="mb-30 fs-16">
+                    <input type="checkbox" name="" id="check1"><label for="check1" class="c-5">Выбрать этот адрес по&#160;умолчанию</label>
+                </fieldset>
+                <button class="bttn btn-gr">Сохранить</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ADD NEW DELIVERY ADDRESS MODAL END -->
